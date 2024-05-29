@@ -1,19 +1,32 @@
-import { DatePicker, ConfigProvider, Button } from "antd";
-import Layoutcomponent from "./componets/Layout";
-import "./App.css";
+import { ConfigProvider} from 'antd';
 
-const App = () => {
+
+import {BrowserRouter} from 'react-router-dom';
+import AppRoutes from './routes';
+
+import './App.css'
+
+
+function App() {
   return (
     <ConfigProvider
       theme={{
         token: {
-          colorPrimary: "#7A83E1",
-        },
+          colorPrimary: '#FF69B4'
+        }
+
       }}
     >
-      <Layoutcomponent></Layoutcomponent>
-    </ConfigProvider>
-  );
-};
 
-export default App;
+     <BrowserRouter>
+
+     <AppRoutes>
+     </AppRoutes>
+
+   
+     </BrowserRouter> 
+
+    </ConfigProvider>
+  )
+}
+export default App
