@@ -5,6 +5,11 @@ import  "./FormLogin.css";
 
 const FormLogin = () => {
 
+    const user = {
+        username: 'admin',
+        password: 'admin',
+    };
+
     const onFinish = (values) => {
         console.log('Success: ', values)
     }
