@@ -7,7 +7,7 @@
 
 .content-left{
     height: 100vh;
-    background: #000000;
+    background: #eadcf5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 
 .content-right{
     height: 100vh;
-    background: #eae4b1;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
